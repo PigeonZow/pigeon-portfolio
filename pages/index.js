@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Nav from './components/Nav'
+import Nav from '../components/Nav'
+import 'tw-elements';
 
 export default function Home() {
   return (
@@ -18,9 +19,8 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen flex flex-1 flex-col">
-        <Nav>
+        <Nav/>
 
-        </Nav>
       </main>
 
       <footer className={styles.footer}>
