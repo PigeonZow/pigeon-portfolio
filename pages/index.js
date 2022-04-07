@@ -6,11 +6,14 @@ import { useEffect } from "react";
 import styles from "../styles/Home.module.css"
 import Nav from "../components/Nav"
 import Banner from "../components/Banner"
+import About from "../components/About"
+import Projects from "../components/Projects";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // images
 import PigeonBanner from '../public/img/pigeon-on-computer-banner4.png'
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -24,12 +27,39 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
       </Head>
+      {typeof window !== "undefined" ? 
+        // client-side
+        <main className="min-h-screen flex flex-1 flex-col">
+          <Element name="home">
+            <Nav />
+            <Banner top={true} src={PigeonBanner} />
+          </Element>
+         
+          <Element name="about">
+            <About></About>
+          </Element>
 
-      <main className="min-h-screen flex flex-1 flex-col">
-        <Nav/>
-        <Banner top={true} src={PigeonBanner}/>
+          <Element name="projects">
+            <Projects></Projects>
+          </Element>
+        </main>
+        : 
+        // server-side (no window/document access)
+        <main className="min-h-screen flex flex-1 flex-col">
+          <div name="home">
+            <Nav />
+            <Banner top={true} src={PigeonBanner} />
+          </div>
+          <div name="about">
+            <About></About>
+          </div>
+          <div name="projects">
+            <Projects></Projects>
+          </div>
+        </main>
+      }
 
-      </main>
+
 
       <footer className={styles.footer}>
 
@@ -37,3 +67,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;
