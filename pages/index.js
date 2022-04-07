@@ -8,10 +8,12 @@ import Nav from "../components/Nav"
 import Banner from "../components/Banner"
 import About from "../components/About"
 import Projects from "../components/Projects";
+import Experience from "../components/Experience";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // images
 import PigeonBanner from '../public/img/pigeon-on-computer-banner4.png'
+
 
 const Home = () => {
   return (
@@ -42,6 +44,10 @@ const Home = () => {
           <Element name="projects">
             <Projects></Projects>
           </Element>
+
+          <Element name="experience">
+            <Experience></Experience>
+          </Element>
         </main>
         : 
         // server-side (no window/document access)
@@ -55,6 +61,9 @@ const Home = () => {
           </div>
           <div name="projects">
             <Projects></Projects>
+          </div>
+          <div name="experience">
+            <Experience></Experience>
           </div>
         </main>
       }

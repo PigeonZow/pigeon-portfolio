@@ -7,7 +7,7 @@ const bannerStyles = "relative overflow-hidden"
 
 const Banner = (props) => {
     return (
-        <div className={props.top ? bannerStyles.concat("top-0") : bannerStyles}>
+        <div className={props.top ? bannerStyles.concat(" top-0") : bannerStyles}>
             <Image className="object-cover w-full" src={props.src} alt="Pigeon on Computer"/>
             <div className="absolute top-24 left-16 sm:left-32 xl:top-48 xl:left-48">
                 <FadeIn delay="200" transitionDuration="1000">
