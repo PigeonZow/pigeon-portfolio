@@ -10,7 +10,7 @@ const Banner = (props) => {
     return (
         <div className={props.top ? bannerStyles.concat(" top-0") : bannerStyles}>
             <Image className="h-screen" src={props.src} alt="Pigeon on Computer" layout="fill" objectFit="cover"/>
-            <div className="h-full flex flex-col justify-center items-center gap-8 mr-0 xl:mr-[750px]">
+            <div className="h-full flex flex-col justify-center items-center gap-8 mr-0 xl:mr-96 2xl:mr-[750px]">
                 <FadeIn className="z-10" delay="400" transitionDuration="1000">
                     <h1 className="mb-3 text-6xl sm:text-8xl lg:text-9xl font-bold text-zinc-200">
                         Hi.

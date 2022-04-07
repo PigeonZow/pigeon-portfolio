@@ -4,7 +4,7 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 
 const About = () => {
     return (
-        <div className="h-screen bg-zinc-200 flex items-center">
+        <div className="min-h-screen py-4 bg-zinc-200 flex items-center">
             <div className="mx-2 sm:mx-4 md:mx-8 lg:mx-32 text-black flex justify-between items-center gap-8 sm:gap-12 md:gap-20">
                 <Image src={ProfilePic} className="rounded-full" objectFit="contain" alt="Profile Picture"/>
                 <div className="flex flex-col text-left sm:left-32 gap-6">

@@ -2,7 +2,7 @@ import ProjectBox from "./ProjectBox";
 
 const Projects = () => {
     return (
-        <div className="h-screen bg-zinc-900 flex flex-col gap-4 xl:gap-16 justify-center items-center">
+        <div className="min-h-screen py-4 bg-zinc-900 flex flex-col gap-4 xl:gap-16 justify-center items-center">
             <h3 className="text-5xl font-bold text-white">Coding Projects</h3>
             <div className="flex flex-wrap justify-center items-center gap-2 md:gap-8">
                 <ProjectBox 
