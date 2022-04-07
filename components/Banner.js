@@ -1,9 +1,10 @@
 import FadeIn from "react-fade-in/lib/FadeIn";
 import Image from "next/image";
-import DoubleDownArrow from "../public/img/icons8-double-down-48.png"
+import DoubleDownArrow from "../public/img/icons8-double-down-48.png";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // used when using an old image to add space for nav, now not using but too lazy to remove in case using again.
-const bannerStyles = "relative overflow-hidden"
+const bannerStyles = "relative overflow-hidden";
 
 const Banner = (props) => {
     return (
@@ -21,15 +22,17 @@ const Banner = (props) => {
                     </h1>
                 </FadeIn>
                 <FadeIn delay="1400" transitionDuration="1000">
-                    <div className="flex justify-between animate-bounce pt-2 md:pt-16 lg:pt-36">
-                        <Image src={DoubleDownArrow}/>
-                        <p className="text-white font-bold">Get to know me</p>
-                        <Image src={DoubleDownArrow}/>
-                    </div>
+                    <Link activeClass="active" to={"about"} spy={true} smooth={true} duration={700}>
+                        <div className="flex justify-between animate-bounce pt-2 md:pt-16 lg:pt-36 cursor-pointer">
+                            <Image src={DoubleDownArrow}/>
+                            <p className="text-white font-bold">Get to know me</p>
+                            <Image src={DoubleDownArrow}/>
+                        </div>
+                    </Link>
                 </FadeIn>
             </div>
         </div>
     )
-}
+};
 
 export default Banner;

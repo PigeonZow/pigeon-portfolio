@@ -1,18 +1,19 @@
-import Head from "next/head"
-// import Image from "next/image"
-// import Script from "next/script"
+import Head from "next/head";
+// import Image from "next/image";
+// import Script from "next/script";
 // import dynamic from "next/dynamic";
 import { useEffect } from "react";
-import styles from "../styles/Home.module.css"
-import Nav from "../components/Nav"
-import Banner from "../components/Banner"
-import About from "../components/About"
+import styles from "../styles/Home.module.css";
+import Nav from "../components/Nav";
+import Banner from "../components/Banner";
+import About from "../components/About";
 import Projects from "../components/Projects";
 import Experience from "../components/Experience";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Contact from "../components/Contact";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 // images
-import PigeonBanner from '../public/img/pigeon-on-computer-banner4.png'
+import PigeonBanner from "../public/img/pigeon-on-computer-banner4.png";
 
 
 const Home = () => {
@@ -48,6 +49,10 @@ const Home = () => {
           <Element name="experience">
             <Experience></Experience>
           </Element>
+
+          <Element name="contact">
+            <Contact></Contact>
+          </Element>
         </main>
         : 
         // server-side (no window/document access)
@@ -65,14 +70,11 @@ const Home = () => {
           <div name="experience">
             <Experience></Experience>
           </div>
+          <div name="contact">
+            <Contact></Contact>
+          </div>
         </main>
       }
-
-
-
-      <footer className={styles.footer}>
-
-      </footer>
     </div>
   )
 }

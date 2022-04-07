@@ -15,13 +15,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Sources
 
-Built with the help of 
--  [Next.js](https://nextjs.org/)
--  [TailwindCSS](https://tailwindcss.com/)
--  [react-scroll](https://www.npmjs.com/package/react-scroll)
--  [react-fade-in](https://www.npmjs.com/package/react-fade-in)
+Built with the help of:
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [react-scroll](https://www.npmjs.com/package/react-scroll)
+- [react-fade-in](https://www.npmjs.com/package/react-fade-in)
 
-Code snippets from 
+Code snippets from:
+- [Flowbite](https://flowbite.com/) (Timeline)
+- [TailwindUI](https://tailwindui.com/) (NavBar inspiration)
 
 Images/SVGs:
 - [https://devicon.dev/](https://devicon.dev/)
