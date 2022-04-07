@@ -1,6 +1,6 @@
 const ProjectBox = (props) => {
     return (
-        <div className="flex flex-col w-[24rem] xl:w-[36rem] xl:h-[24rem] bg-zinc-900 border-white border-2 rounded-lg text-white p-4 xl:p-8 gap-4 justify-center">
+        <div className="flex flex-col w-[22rem] md:w-[24rem] xl:w-[36rem] xl:h-[24rem] bg-zinc-900 border-white border-2 rounded-lg text-white p-4 xl:p-8 gap-4 justify-center">
             <h4 className="font-semibold text-2xl xl:text-4xl">{props.title}</h4>
             <p>{props.info}</p>
 
