@@ -13,7 +13,7 @@ import Contact from "../components/Contact";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
 // images
-import PigeonBanner from "../public/img/pigeon-on-computer-banner4.png";
+import PigeonBanner from "../public/pigeon-on-computer-banner4.png";
 
 
 const Home = () => {

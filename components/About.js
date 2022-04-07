@@ -1,4 +1,4 @@
-import ProfilePic from "../public/img/Patrick.jpg";
+import ProfilePic from "../public/Patrick.jpg";
 import Image from "next/image";
 import FadeIn from "react-fade-in/lib/FadeIn";
 

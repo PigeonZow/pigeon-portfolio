@@ -1,6 +1,6 @@
 import FadeIn from "react-fade-in/lib/FadeIn";
 import Image from "next/image";
-import DoubleDownArrow from "../public/img/icons8-double-down-48.png";
+import DoubleDownArrow from "../public/icons8-double-down-48.png";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // used when using an old image to add space for nav, now not using but too lazy to remove in case using again.
