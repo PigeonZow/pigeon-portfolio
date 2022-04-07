@@ -34,7 +34,7 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <nav className="fixed top-0 z-10 w-screen bg-zinc-800 flex flex-row h-16 items-center">
+            <nav className="fixed top-0 z-20 w-screen bg-zinc-800 flex flex-row h-16 items-center">
                 <div className="flex gap-x-2 sm:gap-x-6 items-center justify-center px-8">
                     <Image src="/android-chrome-192x192.png" alt="pigeon icon" layout="intrinsic" width="48px" height="48px" className="object-contain h-12 w-12"/>
                     {typeof window !== "undefined" ? 
