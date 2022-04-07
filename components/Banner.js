@@ -16,7 +16,7 @@ const Banner = (props) => {
                         Hi.<br/>
                         <FadeIn delay="1000" transitionDuration="1000">
                             <span className="leading-normal text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-100">
-                                I'm a Pigeon.
+                                I&apos;m a Pigeon.
                             </span>
                         </FadeIn>
                     </h1>
@@ -24,9 +24,9 @@ const Banner = (props) => {
                 <FadeIn delay="1400" transitionDuration="1000">
                     <Link activeClass="active" to={"about"} spy={true} smooth={true} duration={700}>
                         <div className="flex justify-between animate-bounce pt-2 md:pt-16 lg:pt-36 cursor-pointer">
-                            <Image src={DoubleDownArrow}/>
+                            <Image src={DoubleDownArrow} alt="double down arrow"/>
                             <p className="text-white font-bold">Get to know me</p>
-                            <Image src={DoubleDownArrow}/>
+                            <Image src={DoubleDownArrow} alt="double down arrow"/>
                         </div>
                     </Link>
                 </FadeIn>

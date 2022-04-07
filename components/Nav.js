@@ -1,6 +1,7 @@
 // help from https://tailwindui.com/
 import React from "react"
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Image from "next/image"
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(" ")
@@ -33,9 +34,9 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <nav className="fixed top-0 z-10 w-screen bg-zinc-800 flex flex-row h-16 items-center pl-4">
-                <img src="/android-chrome-192x192.png" alt="pigeon icon" className="object-contain h-12 w-12"/>
-                <div className="flex gap-x-8 items-center justify-center px-8">
+            <nav className="fixed top-0 z-10 w-screen bg-zinc-800 flex flex-row h-16 items-center">
+                <div className="flex gap-x-2 sm:gap-x-6 items-center justify-center px-8">
+                    <Image src="/android-chrome-192x192.png" alt="pigeon icon" layout="intrinsic" width="48px" height="48px" className="object-contain h-12 w-12"/>
                     {typeof window !== "undefined" ? 
                         this.state.navigation.map((item) => (
                             <Link key={item.name} activeClass="active" to={item.href} spy={true} smooth={true} duration={700}>

@@ -8,8 +8,8 @@ const About = () => {
             <div className="mx-2 sm:mx-4 md:mx-8 lg:mx-32 text-black flex justify-between items-center gap-8 sm:gap-12 md:gap-20">
                 <Image src={ProfilePic} className="rounded-full" objectFit="contain" alt="Profile Picture"/>
                 <div className="flex flex-col text-left sm:left-32 gap-6">
-                    <h3 className="text-5xl font-semibold">Just kidding, I'm not a pigeon</h3>
-                    <p className="text-lg">Hi, I'm <span className="font-bold">Patrick</span>, a 3rd-year Computer Science student looking for an entry-level Developer position. I've dipped my toes into working with web technologies (this portfolio was built with Next.JS and TailwindCSS), data science, object-oriented programming with C, and more. Essentially, I've tried a lot of things but haven't found mastery any of them, and I'm hoping an internship or new grad position will help me cement and grow my career in a more focused direction. Also, I like pigeons.</p>
+                    <h3 className="text-5xl font-semibold">Just kidding, I&apos;m not a pigeon</h3>
+                    <p className="text-lg">Hi, I&apos;m <span className="font-bold">Patrick</span>, a 3rd-year Computer Science student looking for an entry-level Developer position. I&apos;ve dipped my toes into working with web technologies (this portfolio was built with Next.JS and TailwindCSS), data science, object-oriented programming with C, and more. Essentially, I&apos;ve tried a lot of things but haven&apos;t found mastery any of them, and I&apos;m hoping an internship or new grad position will help me cement and grow my career in a more focused direction. Also, I like pigeons.</p>
                     <div className="flex flex-wrap items-center">
                         {/* svgs from https://devicon.dev/ */}
                         <FadeIn delay="400">
@@ -33,7 +33,7 @@ const About = () => {
                             </svg>
                         </FadeIn>
                         <FadeIn delay="1600">
-                            <a className="flex justify-center items-center text-zinc-300 bg-zinc-800 hover:bg-zinc-700 hover:text-white px-3 py-3 rounded-lg text-sm font-medium cursor-pointer h-12 relative my-8 mx-8" href="https://drive.google.com/file/d/1bOoiDCbztyMo5BHiGnVRyN1N2Pqrb9EG/view?usp=sharing" target="_blank">
+                            <a className="flex justify-center items-center text-zinc-300 bg-zinc-800 hover:bg-zinc-700 hover:text-white px-3 py-3 rounded-lg text-sm font-medium cursor-pointer h-12 relative my-8 mx-8" href="https://drive.google.com/file/d/1bOoiDCbztyMo5BHiGnVRyN1N2Pqrb9EG/view?usp=sharing" target="_blank" rel="noopener">
                                 View my Resume
                             </a>
                         </FadeIn>

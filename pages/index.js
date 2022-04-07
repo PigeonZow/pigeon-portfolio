@@ -10,7 +10,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
 // images
 import PigeonBanner from "../public/img/pigeon-on-computer-banner4.png";
@@ -21,7 +21,7 @@ const Home = () => {
     <div>
       <Head>
         {/* <Script src="../node_modules/tw-elements/dist/js/index.min.js" strategy="beforeInteractive"></Script> */}
-        <title>Pigeon's Portfolio</title>
+        <title>Pigeon&apos;s Portfolio</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
