@@ -20,7 +20,7 @@ Built with the help of:
 - [TailwindCSS](https://tailwindcss.com/)
 - [react-scroll](https://www.npmjs.com/package/react-scroll)
 - [react-fade-in](https://www.npmjs.com/package/react-fade-in)
-
+- Deployed with [Vercel](https://vercel.com/)
 Code snippets from:
 - [Flowbite](https://flowbite.com/) (Timeline)
 - [TailwindUI](https://tailwindui.com/) (NavBar inspiration)
