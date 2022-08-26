@@ -33,7 +33,7 @@ const About = () => {
                             </svg>
                         </FadeIn>
                         <FadeIn delay="1600">
-                            <a className="flex justify-center items-center text-zinc-300 bg-zinc-800 hover:bg-zinc-700 hover:text-white px-3 py-3 rounded-lg text-sm font-medium cursor-pointer h-12 relative my-8 mx-8" href="https://drive.google.com/file/d/1bOoiDCbztyMo5BHiGnVRyN1N2Pqrb9EG/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <a className="flex justify-center items-center text-zinc-300 bg-zinc-800 hover:bg-zinc-700 hover:text-white px-3 py-3 rounded-lg text-sm font-medium cursor-pointer h-12 relative my-8 mx-8" href="https://drive.google.com/file/d/14vyj48MvwK0V5yCrAtMP65-fDmPzx9s3/view?usp=sharing" target="_blank" rel="noreferrer">
                                 View my Resume
                             </a>
                         </FadeIn>
